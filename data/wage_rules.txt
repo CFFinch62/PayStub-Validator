@@ -1,0 +1,85 @@
+Example Pay Rates:
+
+REG_RATE  =  23.6438
+OT_RATE   =  35.4657
+DIFF_RATE =   1.4186
+
+Filing Status:
+Married 0
+
+Example Pay Check:
+
+REG		 37.50	886.64	# Pay for hours up to and including 37.5 max (REG)
+REG OT		  2.32	 82.28  # Pay for hours worked over 37.5 (OT)
+
+DIFF	 	  5.15	  7.31  # Hourly add on for night work - 5PM to 7AM (DIFF)
+
+HOLIDAY		  0.00	  0.00	# Pay for hours worked on a holiday (REG)
+HOL OT	   	  0.00	  0.00	# Pay for overtime hours worked on a holiday (OT)
+
+VACATION    	  0.00	  0.00 	# Pay for vacation hours taken in a pay week (REG) 
+SICK		  0.00	  0.00  # Pay for sick hours taken in a pay week (REG)
+
+LONGEVT			  3.00  # Union add on for years on the job [FIXED]
+MEALS N			 10.00	# Union meal allowance for meals eaten during work hours [$2 per work day]
+TRAVELN			  2.50	# Union add on for travel expenses to/from work [$0.50 per work day]
+
+
+GROSS PAY		991.73	# Total of above pay items
+
+AFLCNTT			 48.33	# Supplemental Health Insurance (AFLAC) [FIXED]
+WILTONN			 23.84	# Life Insurance [FIXED]
+
+UNION N			 17.73	# Union Dues deduction [FIXED]
+UN INST			 25.00	# Union Fee for adding Family to insurance benefits [FIXED]
+
+401K% T			 58.75	# 401K Savings Deposit [0.0602% of hours worked only]
+
+ADJ-GROSS		818.08	# GROSS - PRE-TAX DEDUCTIONS		
+
+FEDERAL			 53.02	# Federal Income Tax Withholding [6.48102875% of ADJ-GROSS]
+STATE			 35.01	# NY State Income Tax Withholding [4.279532564% of ADJ-GROSS]
+CITY			  0.00	# Local Income Tax Withholding [0% of ADJ-GROSS]
+FICA			 56.16	# Social Security Tax Withholding [6.864854293% of ADJ-GROSS]
+MEDICARE	         13.14 # Retirement Health Care Tax [1.606199883% of ADJ-GROSS]
+DIS-SUI			  0.60	# NY State Disability and Unemployment Tax [0.07334246% of ADJ-GROSS]
+NYPFL N			  3.79	# NY State Paid Family Leave Tax [0.463279875% of ADJ-GROSS]
+
+NET PAY			656.36	# ADJ-GROSS - TAXES
+
+Holiday Pay Rules:
+
+    If employee is not schedule to work that day
+        - Employees are paid 7 hours straight time.
+    If employee does work that day    
+        - Employees are paid 7 hours a REG + OT rate when working that day.
+        - Holiday OT hours are paid at the OT rate for hours beyond 37.5 hours
+          worked on actual holiday.
+
+Time Clock Rules:
+
+    - Employees are required to punch in no earlier than 5 minutes before
+      or after required start time to be considered "on time".
+    - Employees are required to punch out no earlier than 5 minutes before
+      scheduled quitting time.
+    - Time clock rounds punch times to the quarter hour based upon a 5 minute
+      windows before or after the quarter hour.
+      
+    examples:	  Schedlue	 Punch Time		Time Clock Time 	Status
+          in      8:00AM           7:55AM	        8:00AM		        On Time
+          in      8:00AM           7:54AM		7:45AM			In Early
+          in      8:00AM	   8:05AM		8:00AM			On Time
+          in	  8:00AM	   8:06AM		8:15AM			In Late
+         out 	  5:00PM	   4:55PM		5:00PM			On Time
+         out	  5:00PM	   4:54PM		4:45PM			Out Early
+         out	  5:00PM	   5:05PM		5:00PM			On Time
+         out	  5:00PM	   5:06PM		5:06PM			Out Late
+
+
+
+
+
+
+
+
+

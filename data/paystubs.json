@@ -1,0 +1,94 @@
+{
+    "Employee_2025-03-22": {
+        "week_end": "2025-03-22",
+        "hours": {
+            "Regular": 37.5,
+            "Regular OT": 3.333333333333333,
+            "Holiday": 0.0,
+            "Holiday OT": 0.0,
+            "Vacation": 0.0,
+            "Sick": 0.0,
+            "Differential": 0.0
+        },
+        "wages": {
+            "Regular": 886.6424999999999,
+            "Regular OT": 118.21899999999998,
+            "Holiday": 0.0,
+            "Holiday OT": 0.0,
+            "Vacation": 0.0,
+            "Sick": 0.0,
+            "Differential": 0.0
+        },
+        "pay": {
+            "gross": 1004.8614999999999,
+            "adjusted_gross": 828.5084137999999,
+            "net": 683.3405882538399
+        },
+        "pre_tax_deductions": {
+            "UNION N": 18.8913962,
+            "UN INST": 25.0,
+            "401K% T": 60.29168999999999,
+            "AFLCNTT": 48.33,
+            "WILTONN": 23.84
+        },
+        "post_tax_deductions": {
+            "FEDERAL": 50.70471492455999,
+            "STATE": 34.714502538219996,
+            "FICA": 57.332782234959986,
+            "MEDICARE": 13.421836303559997,
+            "NYPFL N": 3.8939895448599993,
+            "DIS-SUI": 0.6
+        },
+        "additions": {
+            "LONGEVT": 3.0,
+            "MEALS N": 10.0,
+            "TRAVELN": 2.5
+        }
+    },
+    "Employee_2025-03-29": {
+        "week_end": "2025-03-29",
+        "hours": {
+            "Regular": 37.5,
+            "Regular OT": 8.416666666666664,
+            "Holiday": 0.0,
+            "Holiday OT": 0.0,
+            "Vacation": 0.0,
+            "Sick": 0.0,
+            "Differential": 0.0
+        },
+        "wages": {
+            "Regular": 886.6424999999999,
+            "Regular OT": 298.5029749999999,
+            "Holiday": 0.0,
+            "Holiday OT": 0.0,
+            "Vacation": 0.0,
+            "Sick": 0.0,
+            "Differential": 0.0
+        },
+        "pay": {
+            "gross": 1185.1454749999998,
+            "adjusted_gross": 994.5860115699998,
+            "net": 817.3319941346758
+        },
+        "pre_tax_deductions": {
+            "UNION N": 22.280734929999998,
+            "UN INST": 25.0,
+            "401K% T": 71.10872849999998,
+            "AFLCNTT": 48.33,
+            "WILTONN": 23.84
+        },
+        "post_tax_deductions": {
+            "FEDERAL": 60.86866390808399,
+            "STATE": 41.67315388478299,
+            "FICA": 68.82535200064399,
+            "MEDICARE": 16.112293387433997,
+            "NYPFL N": 4.674554254378999,
+            "DIS-SUI": 0.6
+        },
+        "additions": {
+            "LONGEVT": 3.0,
+            "MEALS N": 10.0,
+            "TRAVELN": 2.5
+        }
+    }
+}

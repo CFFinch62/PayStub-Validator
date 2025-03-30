@@ -1,0 +1,111 @@
+{
+    "timesheets": {},
+    "Employee_2025-03-22": {
+        "week_end": "2025-03-22",
+        "entries": {
+            "Monday": {
+                "time_in": "",
+                "time_out": "",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Tuesday": {
+                "time_in": "8:00",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Wednesday": {
+                "time_in": "8:00",
+                "time_out": "20:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Thursday": {
+                "time_in": "8:00",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Friday": {
+                "time_in": "8:00",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Saturday": {
+                "time_in": "10:00",
+                "time_out": "11:50",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Sunday": {
+                "time_in": "",
+                "time_out": "",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            }
+        }
+    },
+    "Employee_2025-03-29": {
+        "week_end": "2025-03-29",
+        "entries": {
+            "Monday": {
+                "time_in": "10:15",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Tuesday": {
+                "time_in": "8:00",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Wednesday": {
+                "time_in": "7:30",
+                "time_out": "20:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Thursday": {
+                "time_in": "8:50",
+                "time_out": "17:30",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Friday": {
+                "time_in": "8:00",
+                "time_out": "17:00",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Saturday": {
+                "time_in": "",
+                "time_out": "",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            },
+            "Sunday": {
+                "time_in": "",
+                "time_out": "",
+                "is_holiday": false,
+                "vacation_hours": "0",
+                "sick_hours": "0"
+            }
+        }
+    }
+}

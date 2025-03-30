@@ -1,0 +1,111 @@
+{
+    "Employee": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "hire_date": "2008-11-12",
+        "filing_status": "M",
+        "filing_dependents": 0,
+        "pay_rate": "23.6438",
+        "union": {
+            "additions": [
+                {
+                    "name": "LONGEVT",
+                    "category": "pre-tax",
+                    "type": "fixed",
+                    "amount": 3.0
+                },
+                {
+                    "name": "MEALS N",
+                    "category": "pre-tax",
+                    "type": "per-day",
+                    "amount": 2.0
+                },
+                {
+                    "name": "TRAVELN",
+                    "category": "pre-tax",
+                    "type": "per-day",
+                    "amount": 0.5
+                }
+            ],
+            "deductions": [
+                {
+                    "name": "UNION N",
+                    "category": "pre-tax",
+                    "type": "percentage",
+                    "rate": 0.0188,
+                    "amount": 0.0
+                },
+                {
+                    "name": "UN INST",
+                    "category": "pre-tax",
+                    "type": "fixed",
+                    "amount": 25.0
+                }
+            ]
+        },
+        "special_deductions": [
+            {
+                "name": "401K% T",
+                "category": "pre-tax",
+                "type": "percentage",
+                "rate": 0.06,
+                "amount": 0.0
+            },
+            {
+                "name": "AFLCNTT",
+                "category": "pre-tax",
+                "type": "fixed",
+                "amount": 48.33
+            },
+            {
+                "name": "WILTONN",
+                "category": "pre-tax",
+                "type": "fixed",
+                "amount": 23.84
+            }
+        ],
+        "payroll_deductions": [
+            {
+                "name": "FEDERAL",
+                "category": "post-tax",
+                "type": "percentage",
+                "rate": 0.0612,
+                "amount": 0.0
+            },
+            {
+                "name": "STATE",
+                "category": "post-tax",
+                "type": "percentage",
+                "rate": 0.0419,
+                "amount": 0.0
+            },
+            {
+                "name": "FICA",
+                "category": "post-tax",
+                "type": "percentage",
+                "rate": 0.0692,
+                "amount": 0.0
+            },
+            {
+                "name": "MEDICARE",
+                "category": "post-tax",
+                "type": "percentage",
+                "rate": 0.0162,
+                "amount": 0.0
+            },
+            {
+                "name": "NYPFL N",
+                "category": "post-tax",
+                "type": "percentage",
+                "rate": 0.0047,
+                "amount": 0.0
+            },
+            {
+                "name": "DIS-SUI",
+                "category": "post-tax",
+                "type": "fixed",
+                "amount": 0.6
+            }
+        ]
+    }
+}
